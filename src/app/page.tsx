@@ -193,10 +193,10 @@ export default function LandingPage() {
         title="Legal Information"
         sections={[
           {
-            title: "Terms of Service",            content: [{ type: "text", content: "These are the terms and conditions governing your use of this website. Please read them carefully." }]
+            title: "Terms of Service",            content: [{ type: "paragraph", content: "These are the terms and conditions governing your use of this website. Please read them carefully." }]
           },
           {
-            title: "Privacy Policy",            content: [{ type: "text", content: "Our privacy policy details how we collect, use, and protect your personal data." }]
+            title: "Privacy Policy",            content: [{ type: "paragraph", content: "Our privacy policy details how we collect, use, and protect your personal data." }]
           }
         ]}
       />
