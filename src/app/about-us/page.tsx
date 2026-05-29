@@ -55,8 +55,7 @@ export default function LandingPage() {
           type: "text",          content: "Salasar Commercial Center stands as a testament to reliability and progress in Bhayandar. For decades, we have been the preferred destination for a diverse range of businesses, from burgeoning startups to established financial institutions and essential diagnostic services. Our commitment extends beyond providing spaces; we foster a vibrant ecosystem where businesses thrive, events flourish, and community connections strengthen.\nStrategically positioned for unparalleled accessibility, we continuously evolve to meet the dynamic needs of modern commerce. At Salasar, we are not just a location; we are a partner in your journey towards success, built on a foundation of trust, convenience, and opportunity."
         }
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/waiting-room-unfocused_1203-1094.jpg"
-      imageAlt="Luxury corporate lounge interior"
+
     />
   </div>
 
