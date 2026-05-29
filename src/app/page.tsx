@@ -121,8 +121,7 @@ export default function LandingPage() {
           type: "text",          content: "Salasar Commercial Center is one of Bhayandar’s established business destinations — bringing together commercial offices, banquet facilities, banking services, diagnostics, and daily business convenience within a single connected hub.\nStrategically located near Bhayandar station with excellent accessibility, Salasar has become a trusted address for professionals, finance firms, retail businesses, medical services, and event hosting."
         }
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/confident-young-indian-man-black-shirt-sitting-cafe_627829-5445.jpg"
-      imageAlt="Luxury office interior"
+
     />
   </div>
 
@@ -190,14 +189,14 @@ export default function LandingPage() {
 
   <div id="legal" data-section="legal">
       <LegalSection 
-        layout="default"
+        layout="section"
         title="Legal Information"
         sections={[
           {
-            title: "Terms of Service",            content: "These are the terms and conditions governing your use of this website. Please read them carefully."
+            title: "Terms of Service",            content: [{ type: "text", content: "These are the terms and conditions governing your use of this website. Please read them carefully." }]
           },
           {
-            title: "Privacy Policy",            content: "Our privacy policy details how we collect, use, and protect your personal data."
+            title: "Privacy Policy",            content: [{ type: "text", content: "Our privacy policy details how we collect, use, and protect your personal data." }]
           }
         ]}
       />
